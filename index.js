@@ -54,5 +54,8 @@ class Trip{
       }.bind(this)
     )
   }
+  setPassenger(passenger){
+    this.passengerId = passenger.id
+  }
 
 }
