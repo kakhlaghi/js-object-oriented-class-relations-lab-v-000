@@ -28,8 +28,8 @@ setTrip(trip){
 }
 trip(){
   return store.trips.find(
-    function(driver){
-      return driver.id == this.driverId;
+    function(trip){
+      return trip.id == this.driverId;
     }.bind(this)
   )
 }
