@@ -26,8 +26,8 @@ class Passenger{
 setTrip(trip){
   this.tripId = trip.id
 }
-trips(){
-  return store.drivers.find(
+trip(){
+  return store.trips.find(
     function(driver){
       return driver.id == this.driverId;
     }.bind(this)
