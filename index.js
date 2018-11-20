@@ -24,7 +24,7 @@ class Passenger{
     }
 }
 setTrip(trip){
-  this.driverId = driver.id
+  this.tripId = driver.id
 }
 driver(){
   return store.drivers.find(
