@@ -23,7 +23,7 @@ class Passenger{
       this.tripId = trip.id;
     }
 }
-setDriver(driver){
+setTrip(trip){
   this.driverId = driver.id
 }
 driver(){
