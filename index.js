@@ -1,4 +1,4 @@
-let store = { users: [], items: [] };
+let store = { drivers: []};
 // initialize store with key of items and users that each point to an empty array
 
 let driverId = 0;
@@ -12,4 +12,3 @@ class Driver{
   }
 
 }
-  
