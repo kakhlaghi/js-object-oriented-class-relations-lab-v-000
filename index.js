@@ -20,7 +20,7 @@ class Passenger{
     store.passengers.push(this);
   }
   if (trip) {
-      this.tripId = passenger.id;
+      this.tripId = trip.id;
     }
 }
 setDriver(driver){
@@ -33,7 +33,7 @@ driver(){
     }.bind(this)
   )
 }
-  
+
 }
 
 class Trip{
