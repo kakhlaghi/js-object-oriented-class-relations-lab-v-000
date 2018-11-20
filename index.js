@@ -19,6 +19,22 @@ class Passenger{
     this.name = name
     store.passengers.push(this);
   }
+  if (passenger) {
+      this.passengerId = passenger.id;
+    }
+}
+
+setDriver(driver){
+  this.driverId = driver.id
+}
+driver(){
+  return store.drivers.find(
+    function(driver){
+      return driver.id == this.driverId;
+    }.bind(this)
+  )
+}
+  
 }
 
 class Trip{
