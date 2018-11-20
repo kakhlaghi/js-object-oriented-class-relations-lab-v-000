@@ -19,11 +19,10 @@ class Passenger{
     this.name = name
     store.passengers.push(this);
   }
-  if (passenger) {
-      this.passengerId = passenger.id;
+  if (trip) {
+      this.tripId = passenger.id;
     }
 }
-
 setDriver(driver){
   this.driverId = driver.id
 }
