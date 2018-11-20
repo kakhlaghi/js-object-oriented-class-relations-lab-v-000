@@ -23,6 +23,6 @@ class Passenger{
 
 class Trip{
   constructor(){
-
+    this.id = ++tripId
   }
 }
