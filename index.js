@@ -29,21 +29,14 @@ class Passenger{
     this.name = name
     store.passengers.push(this);
   }
-  trips(){
-    return store.trips.find(
-      function(trip){
-        return trips.id == this.tripsId;
-      }.bind(this)
-    )
-  }
   trips() {
   return store.trips.filter(trip => {
     return trip.passengerId == this.id;
   });
 }
-passengers() {
+drivers() {
   return this.trips().map(trip => {
-    return trip.passenger();
+    return trip.driver();
   });
 }
 }
