@@ -28,13 +28,8 @@ class Passenger{
     this.id = ++passengerId
     this.name = name
     store.passengers.push(this);
-    if (trips) {
-        this.tripsId = trips.id;
-      }
   }
-  setTrips(trip){
-    this.tripsId = trips.id
-    }
+
   trips(){
     return store.trips.find(
       function(trip){
