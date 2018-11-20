@@ -22,16 +22,16 @@ class Passenger{
   if (trip) {
       this.tripId = trip.id;
     }
-setTrip(trip){
-  this.tripId = trip.id
-}
-trip(){
-  return store.trips.find(
-    function(trip){
-      return trip.id == this.tripId;
-    }.bind(this)
-  )
-}
+  setTrip(trip){
+    this.tripId = trip.id
+    }
+  trip(){
+    return store.trips.find(
+      function(trip){
+        return trip.id == this.tripId;
+      }.bind(this)
+    )
+  }
 }
 
 
