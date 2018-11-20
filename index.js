@@ -1,4 +1,4 @@
-let store = { drivers: [], passengers: [], trips: [] this: []};
+let store = { drivers: [], passengers: [], trips: [], this: []};
 // initialize store with key of items and users that each point to an empty array
 
 let driverId = 0;
@@ -57,7 +57,6 @@ class Trip{
       }.bind(this)
     )
   }
-
   setDriver(driver){
     this.driverId = driver.id
   }
