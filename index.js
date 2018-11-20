@@ -22,7 +22,6 @@ class Passenger{
   if (trip) {
       this.tripId = trip.id;
     }
-    
 setTrip(trip){
   this.tripId = trip.id
 }
