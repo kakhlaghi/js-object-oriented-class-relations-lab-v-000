@@ -33,8 +33,8 @@ trip(){
     }.bind(this)
   )
 }
-
 }
+
 
 class Trip{
   constructor(driver, passenger){
