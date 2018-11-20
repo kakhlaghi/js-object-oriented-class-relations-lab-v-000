@@ -23,7 +23,7 @@ class Passenger{
       }
   }
   setTrips(trip){
-    this.tripId = trip.id
+    this.tripsId = trips.id
     }
   trips(){
     return store.trips.find(
