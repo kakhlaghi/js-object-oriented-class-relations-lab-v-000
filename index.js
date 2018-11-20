@@ -25,7 +25,7 @@ class Passenger{
   setTrip(trip){
     this.tripId = trip.id
     }
-  trip(){
+  trips(){
     return store.trips.find(
       function(trip){
         return trip.id == this.tripId;
