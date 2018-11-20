@@ -29,5 +29,8 @@ class Trip{
   setDriver(driver){
     this.driverId = driver.id
   }
+  driver(){
+
+  }
 
 }
