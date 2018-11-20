@@ -22,7 +22,7 @@ class Passenger{
 }
 
 class Trip{
-  constructor(){
+  constructor(driver){
     this.id = ++tripId
     store.trips.push(this);
     if (driver) {
